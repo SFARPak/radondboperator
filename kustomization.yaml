@@ -1,0 +1,15 @@
+secretGenerator:
+- name: alitech-mysql-pass
+  literals:
+  - password=2EB9s3O2wJGK-h%N
+- name: alitech-mysql-user
+  literals:
+  - username=alitech_delivery
+- name: alitech-mysql-user-password
+  literals:
+  - userpassword=2EB9s3O2wJGK-h%N
+- name: alitech-mysql-database
+  literals:
+  - databasename=alitech_delivery
+resources:
+  - persona-mysql.yaml
